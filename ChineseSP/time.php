@@ -1,12 +1,11 @@
 <?php 
 /*
- *	Made by Samerton
- *  https://github.com/NamelessMC/Nameless/
- *  NamelessMC version 2.0.0-dev
+ *  Made by Midencekaeir
+ *  for NamelessMC version 2.0.0-dev
  *
  *  License: MIT
  *
- *  EnglishUS Language - Time
+ *  ChineseCN Language - Time
  */
 
 $language = array(
@@ -14,7 +13,7 @@ $language = array(
 	 *  Time
 	 */
 	'time' => 'time', // Placeholder, no need to translate
-	'seconds_short' => 's', // Shortened "seconds", eg "s"
+	'seconds_short' => '秒', // Shortened "seconds", eg "s"
 	'less_than_a_minute' => '数分钟之前',
 	'1_minute' => '一分钟之前',
 	'_minutes' => '{x}分钟之前',
