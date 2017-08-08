@@ -1,21 +1,20 @@
 <?php 
 /*
- *	Made by Samerton
- *  https://github.com/NamelessMC/Nameless/
+ *  Made by Midencekaeir
  *  NamelessMC version 2.0.0-dev
  *
  *  License: MIT
  *
- *  EnglishUS Language - Table
+ *  ChineseCN Language - Table
  */
 
 $language = array(
 	/*
 	 *  Tables
 	 */
-	'display_records_per_page' => 'Display _MENU_ records per page', // Don't replace "_MENU_"
-	'nothing_found' => 'No results found',
-	'page_x_of_y' => 'Showing page _PAGE_ of _PAGES_', // Don't replace "_PAGE_" or "_PAGES_"
-	'no_records' => 'No records available',
-	'filtered' => '(filtered from _MAX_ total records)' // Don't replace "_MAX_"
+	'display_records_per_page' => '每页显示_MENU_条记录', // Don't replace "_MENU_"
+	'nothing_found' => '没有找到结果',
+	'page_x_of_y' => '显示_PAGES_页中的_PAGE_页', // Don't replace "_PAGE_" or "_PAGES_"
+	'no_records' => '没有可显示的记录',
+	'filtered' => '(从_MAX_条记录中过滤)' // Don't replace "_MAX_"
 );
