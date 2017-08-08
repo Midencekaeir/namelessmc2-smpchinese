@@ -1,12 +1,11 @@
 <?php
 /*
- *	Made by Samerton
- *  https://github.com/NamelessMC/Nameless/
- *  NamelessMC version 2.0.0-pr2
+ *	Made by Midencekaeir
+ *  for NamelessMC version 2.0.0-pr2
  *
  *  License: MIT
  *
- *  EnglishUS Language - Admin
+ *  ChineseCN Language - Admin
  */
 
 $language = array(
@@ -14,71 +13,71 @@ $language = array(
 	 *  Admin Control Panel
 	 */
 	// Login
-	're-authenticate' => 'Please re-authenticate',
+	're-authenticate' => '请重新认证',
 
 	// Sidebar
 	'admin_cp' => 'AdminCP',
-	'administration' => 'Administration',
-	'overview' => 'Overview',
-	'core' => 'Core',
+	'administration' => '管理',
+	'overview' => '总览',
+	'core' => '核心',
 	'minecraft' => 'Minecraft',
-	'modules' => 'Modules',
-	'security' => 'Security',
-	'styles' => 'Styles',
-	'users_and_groups' => 'Users and Groups',
+	'modules' => '模块',
+	'security' => '安全',
+	'styles' => '样式',
+	'users_and_groups' => '用户和组',
 
 	// Overview
-	'running_nameless_version' => 'Running NamelessMC version <strong>{x}</strong>', // Don't replace "{x}"
-	'running_php_version' => 'Running PHP version <strong>{x}</strong>', // Don't replace "{x}"
-	'statistics' => 'Statistics',
-    'notices' => 'Notices',
-    'no_notices' => 'No notices.',
-    'email_errors_logged' => 'Email errors have been logged. Click <a href="{x}">here</a> to view.', // Don't replace "{x}"
+	'running_nameless_version' => '您正在运行NamelessMC版本<strong>{x}</strong>', // Don't replace "{x}"
+	'running_php_version' => '您正在运行PHP版本<strong>{x}</strong>', // Don't replace "{x}"
+	'statistics' => '统计',
+    'notices' => '通知',
+    'no_notices' => '没有通知',
+    'email_errors_logged' => '邮件错误已经被记录，点击<a href="{x}">here</a>查看详情。', // Don't replace "{x}"
 
 	// Core
-	'settings' => 'Settings',
-	'general_settings' => 'General Settings',
-	'sitename' => 'Site name',
-	'default_language' => 'Default language',
-	'default_language_help' => 'Users will be able to choose from any installed languages.',
-	'installed_languages' => 'Any new languages have been installed successfully.',
-	'default_timezone' => 'Default timezone',
-	'registration' => 'Registration',
-	'enable_registration' => 'Enable registration?',
-	'verify_with_mcassoc' => 'Verify user accounts with MCAssoc?',
-	'email_verification' => 'Enable email verification?',
-	'homepage_type' => 'Homepage type',
-	'post_formatting_type' => 'Post formatting type',
-	'portal' => 'Portal',
-	'missing_sitename' => 'Please insert a site name between 2 and 64 characters long.',
-	'use_friendly_urls' => 'Friendly URLs',
-	'use_friendly_urls_help' => 'IMPORTANT: Your server must be configured to allow the use of mod_rewrite and .htaccess files for this to work.',
-	'config_not_writable' => 'Your <strong>core/config.php</strong> file is not writable. Please check file permissions.',
-	'social_media' => 'Social Media',
-	'youtube_url' => 'Youtube URL',
-	'twitter_url' => 'Twitter URL',
-	'twitter_dark_theme' => 'Use Twitter dark theme?',
-	'google_plus_url' => 'Google Plus URL',
-	'facebook_url' => 'Facebook URL',
-	'successfully_updated' => 'Successfully updated',
-    'debugging_and_maintenance' => 'Debugging and Maintenance',
-    'enable_debug_mode' => 'Enable debug mode?',
-    'force_https' => 'Force https?',
-    'force_https_help' => 'If enabled, all requests to your website will be redirected to https. You must have a valid SSL certificate active for this to work correctly.',
-    'contact_email_address' => 'Contact Email Address',
-    'emails' => 'Emails',
-    'email_errors' => 'Email Errors',
-    'registration_email' => 'Registration Email',
-    'contact_email' => 'Contact Email',
-    'forgot_password_email' => 'Forgot Password Email',
-    'unknown' => 'Unknown',
-    'delete_email_error' => 'Delete error',
-    'confirm_email_error_deletion' => 'Are you sure you want to delete this error?',
-    'viewing_email_error' => 'Viewing error',
-    'unable_to_write_email_config' => 'Unable to write to file <strong>core/email.php</core>. Please check file permissions.',
-    'enable_mailer' => 'Enable PHPMailer?',
-    'enable_mailer_help' => 'Enable this if emails aren\'t being sent by default. The use of PHPMailer requires you to have a service capable of sending emails, such as Gmail or an SMTP provider.',
-    'outgoing_email' => 'Outgoing Email Address',
+	'settings' => '设置',
+	'general_settings' => '基本设置',
+	'sitename' => '站点名称',
+	'default_language' => '默认语言',
+	'default_language_help' => '用户可以选择任何已经安装在NamelessMC中的语言。',
+	'installed_languages' => '新的语言已经全部安装完成了。',
+	'default_timezone' => '默认时区',
+	'registration' => '注册',
+	'enable_registration' => '启用注册?',
+	'verify_with_mcassoc' => '使用MCAssoc验证用户的注册?',
+	'email_verification' => '使用邮箱验证?',
+	'homepage_type' => '主页类型',
+	'post_formatting_type' => '文章格式类型',
+	'portal' => '传送门',
+	'missing_sitename' => '请输入一个2-64字符的站点名称。',
+	'use_friendly_urls' => '友好链接',
+	'use_friendly_urls_help' => '警告：您的服务器必须可以使用mod_rewrite以及.htaccess。',
+	'config_not_writable' => '您的<strong>core/config.php</strong>文件不可写，请检查文件权限。',
+	'social_media' => '社交媒体',
+	'youtube_url' => 'Youtube地址',
+	'twitter_url' => '推特地址',
+	'twitter_dark_theme' => '使用黑色的推特背景?',
+	'google_plus_url' => '谷歌Plus地址',
+	'facebook_url' => '脸书地址',
+	'successfully_updated' => '成功设置。',
+    'debugging_and_maintenance' => 'Debug以及维护',
+    'enable_debug_mode' => '启用Debug模式?',
+    'force_https' => '强制使用HTTPS?',
+    'force_https_help' => '如果启用。所有请求都会被强制跳转到HTTPS，您必须有一份SSL证书。',
+    'contact_email_address' => '电子邮箱联系地址',
+    'emails' => '电子邮箱',
+    'email_errors' => '电子邮箱错误',
+    'registration_email' => '注册邮箱',
+    'contact_email' => '联系邮箱',
+    'forgot_password_email' => '遗忘密码邮箱',
+    'unknown' => '未知',
+    'delete_email_error' => '删除错误',
+    'confirm_email_error_deletion' => '您确定要删除这个错误么?',
+    'viewing_email_error' => '查看错误',
+    'unable_to_write_email_config' => '无法写入到文件<strong>core/email.php</core>。请检查文件权限。',
+    'enable_mailer' => '启用PHPMailer?',
+    'enable_mailer_help' => '启用这个如果邮件默认没有被发送，使用PHPMailer需要SMTP提供商或例如GMail。',
+    'outgoing_email' => '发出邮件地址',
     'outgoing_email_info' => 'This is the email address which NamelessMC will use to send emails from.',
     'mailer_settings_info' => 'The following fields are required if you have enabled PHPMailer. For more information on how to fill out these fields, check out <a href="https://github.com/NamelessMC/Nameless/wiki/Setting-up-Gmail-or-SMTP-with-Nameless" target="_blank">the wiki</a>.',
     'host' => 'Host',
